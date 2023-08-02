@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "benjimod",
+	"version": "${version}",
+	"name": "Benji Mod",
+	"description": "My first mod - made by benji :)",
+	"authors": [
+		"Benji"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/benjimod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.benji.benjimod.BenjiMod"
+		],
+		"client": [
+			"net.benji.benjimod.BenjiModClient"
+		],
+		"fabric-datagen": [
+			"net.benji.benjimod.BenjiModDataGenerator"
+		]
+	},
+	"mixins": [
+		"benjimod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
