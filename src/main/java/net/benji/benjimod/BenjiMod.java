@@ -1,5 +1,6 @@
 package net.benji.benjimod;
 
+import net.benji.benjimod.block.ModBlocks;
 import net.benji.benjimod.item.ModItemGroups;
 import net.benji.benjimod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,5 +17,6 @@ public class BenjiMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
