@@ -1,5 +1,7 @@
 package net.benji.benjimod;
 
+import net.benji.benjimod.item.ModItemGroups;
+import net.benji.benjimod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +14,7 @@ public class BenjiMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
