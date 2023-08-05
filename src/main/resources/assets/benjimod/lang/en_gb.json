@@ -5,5 +5,9 @@
 
   "itemgroup.ruby": "Ruby Group",
 
+  "block.benjimod.ruby_ore": "Ruby Ore",
+
+  "block.benjimod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
   "block.benjimod.ruby_block": "Block of Ruby"
 }

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "benjimod:ruby_block"
+    "benjimod:ruby_block",
+    "benjimod:ruby_ore",
+    "benjimod:deepslate_ruby_ore"
   ]
 }
