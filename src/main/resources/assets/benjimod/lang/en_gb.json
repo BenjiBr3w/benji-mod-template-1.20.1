@@ -9,5 +9,15 @@
 
   "block.benjimod.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
-  "block.benjimod.ruby_block": "Block of Ruby"
+  "block.benjimod.ruby_block": "Block of Ruby",
+
+  "item.benjimod.ruby_sword": "Ruby Sword",
+
+  "item.benjimod.ruby_axe": "Ruby Axe",
+
+  "item.benjimod.ruby_hoe": "Ruby Hoe",
+
+  "item.benjimod.ruby_shovel": "Ruby Shovel",
+
+  "item.benjimod.ruby_pickaxe": "Ruby Pickaxe"
 }
